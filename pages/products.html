@@ -344,19 +344,22 @@
                 </div>
                 <div class="col-md-6">
                     <div class="p-4">
-                        <form>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                             <input type="hidden" name="access_key" value="8021e636-bb2e-4a6c-82f7-f4bb4b7b1297">
+
                             <div class="mb-3">
-                                <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+                                <input type="text" name="name" class="form-control form-control-lg" placeholder="Your Name">
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control form-control-lg" placeholder="Your Email">
+                                <input type="email" name='email' class="form-control form-control-lg" placeholder="Your Email">
                             </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control form-control-lg" placeholder="Subject">
+                                <input type="text" name='subject' class="form-control form-control-lg" placeholder="Subject">
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control form-control-lg" rows="5" placeholder="Your Message"></textarea>
+                                <textarea name='message' class="form-control form-control-lg" rows="5" placeholder="Your Message"></textarea>
                             </div>
+                             <input type="hidden" name="redirect" value="https://web3forms.com/success">
                             <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
                         </form>
                     </div>
