@@ -245,10 +245,12 @@ body {
 .section-title:after {
   content: "";
   display: block;
-  width: 60px;
+  align-items: 60px;
+  width: 90px;
   height: 4px;
   background: var(--secondary);
   margin-top: 15px;
+  /* margin: 15px auto 0 auto; */
 }
 
 .feature-icon {
@@ -596,29 +598,6 @@ footer {
   margin: 5px 0;
 }
 
-/* .featurelist li {
-  color: #666;
-  font-size: 0.9rem;
-  padding: 3px 0;
-  padding-left: 15px;
-  position: relative;
-  padding: 4px 4px 4px 10px;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-   left: 0px;
-   list-style-type: none;
-    content: "•";
-}
-
-.featurelist li::before {
-  /* content: "•"; */
-  /* color: var(--primary);
-  font-weight: bold;
-  position: absolute;
-  left: 0px;
-  transition: transform 0.3s ease;
-} */ 
 /* Hover effects */
 .featurelist:hover {
   background-color: #f8f9fa;
